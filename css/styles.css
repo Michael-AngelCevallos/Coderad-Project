@@ -1,6 +1,6 @@
-.navbar{
-  /* display:flex;
-  align-items: center; */
+.navbar nav{
+  display:flex;
+  align-items: center;
   position: fixed;
   top: 0;
   right: 0;
@@ -9,19 +9,18 @@
   transition: ease-in-out 0.3s;
 }
 
-.navbar a{
-  margin-right: auto;
-}
-
-.navbar ul{
+.navbar-nav{
   display: flex;
   align-items: center;
 }
+
 
 .navbar .container{
   display: flex;
-  align-items: center;
+  align-content: center;
+
 }
+
 
 .navbar-brand{
   margin-right: auto;
@@ -29,4 +28,9 @@
   font-weight: 700;
   width: 100%;
   transition: ease-in-out 0.3s;
+}
+
+.navbar li{
+  display:flex;
+  justify-content: space-between;
 }
