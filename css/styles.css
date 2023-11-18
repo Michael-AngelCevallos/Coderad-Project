@@ -1,4 +1,4 @@
-.navbar nav{
+.navbar{
   display:flex;
   align-items: center;
   position: fixed;
@@ -9,6 +9,12 @@
   transition: ease-in-out 0.3s;
 }
 
+/* Hides Hamburger Menu when in full screen */
+[aria-controls="navbarDropdown"]{
+  display: none;
+
+}
+
 .navbar-nav{
   display: flex;
   align-items: center;
@@ -17,8 +23,7 @@
 
 .navbar .container{
   display: flex;
-  align-content: center;
-
+  align-content:center;
 }
 
 
@@ -30,7 +35,6 @@
   transition: ease-in-out 0.3s;
 }
 
-.navbar li{
-  display:flex;
-  justify-content: space-between;
+.navbar-toggle{
+  margin: auto;
 }
