@@ -81,6 +81,8 @@ content: "";
 color: var(--white);
 }
 
+
+/* Section 2 */
 .why-me{
   padding: var(--size-100) 0;
 }
@@ -115,3 +117,25 @@ color: var(--white);
   margin-top: 0.5rem;
 }
 
+/* Section 3 */
+.bg-contrast{
+  background-color: var(--contrast);
+}
+
+.service-card{
+  padding: var(--size-30);
+  box-shadow: 0 0 10px rgba(48, 63, 100, 0.15);
+  background-color: white;
+  border-radius: 8px;
+}
+
+
+.service-card span{
+  width: 4.375rem;
+  height: 4.375rem;
+  display: block;
+  float: left;
+  margin-right: 15px;
+  border-radius: 50%;
+  background: var(--font-color-light);
+}
