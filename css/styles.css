@@ -200,8 +200,8 @@ span.bg-color-6{
 }
 
 .video-btn img{
-  width: var(--size-100);
-  height: var(--size-100);
+  width: var(--size-70);
+  height: var(--size-70);
 }
 
 .video-box {
