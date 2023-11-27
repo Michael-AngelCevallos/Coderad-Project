@@ -124,6 +124,7 @@ color: var(--white);
 .bg-contrast{
   background-color: var(--contrast);
   padding: var(--size-150) 0;
+  margin: 0 auto;
 }
 
 .service-grid{
@@ -177,7 +178,7 @@ span.bg-color-6{
 }
 
 
-/* Section 4 */
+/* Section 4 - Video Demo */
 .video-demo{
   text-align: center;
 }
@@ -215,3 +216,9 @@ span.bg-color-6{
   border-radius: 8px;
 }
 
+
+/* Section 5 - Price Planning */
+.block-text.pricing-header{
+  text-align: center;
+  padding-right: 0;
+}
