@@ -223,6 +223,13 @@ span.bg-color-6{
   padding-right: 0;
 }
 
+
+.pricing-table{
+  display: flex;
+  /* justify-content: center; */
+  gap: 10px;
+}
+
 .price-card{
   background-color: var(--white);
   border-radius: 8px;
