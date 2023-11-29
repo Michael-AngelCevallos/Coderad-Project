@@ -297,6 +297,12 @@ font-weight: 600;
 
 
 /* Section 6 - Testimonial  */
+.testimonial-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: 1fr 1fr;
+}
+
 .testimonials .block-text{
   padding-right: 0;
   text-align: center;
