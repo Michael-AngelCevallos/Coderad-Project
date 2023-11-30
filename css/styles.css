@@ -369,8 +369,8 @@ width: 5rem;
 
 footer{
   background-color: var(--font-color-dark);
-
 }
+
 
 footer .footer-top{
   display: grid;
@@ -379,7 +379,7 @@ footer .footer-top{
   padding: var(--size-100) 0;
 }
 
-.social-icons a{
+.social-icons a {
   padding-left: 10px;
   text-decoration: none;
   color: orange; 
