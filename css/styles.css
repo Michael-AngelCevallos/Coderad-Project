@@ -391,3 +391,7 @@ padding: var(--size-100) 0;
 .footer-col{
   justify-self: center;
 }
+
+.footer-col h5{
+  color: var(--white);
+}
