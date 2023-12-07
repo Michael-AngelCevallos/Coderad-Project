@@ -397,3 +397,7 @@ footer .footer-col{
   font-weight: 500;
   margin-bottom: var(--size-16);
 }
+
+footer .contact-info{
+  margin-bottom: var(--size-20);
+}
