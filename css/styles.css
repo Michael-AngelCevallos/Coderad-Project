@@ -388,10 +388,12 @@ gap: var(--size-50);
 padding: var(--size-100) 0;
 }
 
-.footer-col{
+footer .footer-col{
   justify-self: center;
 }
 
-.footer-col h5{
+.footer-top h5{
   color: var(--white);
+  font-weight: 500;
+  margin-bottom: var(--size-16);
 }
