@@ -201,8 +201,8 @@ span.bg-color-6{
 }
 
 .video-btn img{
-  width: var(--size-70);
-  height: var(--size-70);
+  width: var(--size-100);
+  height: var(--size-100);
 }
 
 .video-box {
@@ -428,6 +428,7 @@ footer .contact-info{
 
 .recent-posts{
   display: flex;
+  width: ;
   margin-bottom: var(--size-16)
 }
 
@@ -436,3 +437,42 @@ footer .contact-info{
   margin-right: var(--size-10);
 }
 
+.post-inner h6{
+  margin: 0;
+}
+
+.post-inner h6 a{
+  color: var(--white);
+  font-weight: 600;
+}
+
+.post-inner span{
+  color: var(--font-color-light);
+  font-size: var(--size-10);
+}
+
+.copyright p{
+margin-right: var(--size-50);
+}
+
+.footer-bottom{
+  padding: var(--size-16) 0;
+}
+
+.footer-bottom-wrapper{
+  display: flex;
+  justify-content: space-around;
+  max-width: 768px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.footer-bottom-links ul li{
+display: inline-block;
+margin-right: var(--size-10);
+color: var(--white);
+}
+
+.footer-bottom-links ul li a{
+  color: var(--white);
+}
