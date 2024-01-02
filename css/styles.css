@@ -406,3 +406,7 @@ footer .contact-info{
   color: var(--white);
   margin-bottom: var(--size-10);
 }
+
+.contact-info li i{
+  padding-right: var(--size-10);
+}
