@@ -409,4 +409,15 @@ footer .contact-info{
 
 .contact-info li i{
   padding-right: var(--size-10);
+  width: var(--size-30);
+}
+
+.social-icons ul li{
+  display: inline-block;
+  margin-right: var(--size-16);
+}
+
+.social-icons ul li a{
+  color: var(--white);
+  font-size: var(--size-16);
 }
