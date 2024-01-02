@@ -401,3 +401,8 @@ footer .footer-col{
 footer .contact-info{
   margin-bottom: var(--size-20);
 }
+
+.contact-info li{
+  color: var(--white);
+  margin-bottom: var(--size-10);
+}
