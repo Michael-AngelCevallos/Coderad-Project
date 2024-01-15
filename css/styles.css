@@ -62,7 +62,10 @@
   padding: 4.6875rem 0;
 }
 
-.bg-header{background-image: url("../assets/images/bg-header-1.jpg");}
+.bg-header{
+  background-image: url("../assets/images/bg-header-1.jpg");
+  padding: var(--size-150) 0;
+}
 .video-demo{
   background-image: url("../assets/images/bg-demo.jpg");
 background-size: 1800px;
