@@ -108,9 +108,9 @@ color: var(--white);
   flex: 1;
 }
 
-.block-text{
-  padding-right: var(--size-50);
-  padding-top: var(--size-100);
+.why-me-wrapper .block-text{
+  padding-right: var(--size-100);
+  max-width: 550px;
 }
 
 .block-text span {
