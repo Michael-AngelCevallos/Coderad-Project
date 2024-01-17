@@ -110,7 +110,7 @@ color: var(--white);
 
 .why-me-wrapper .block-text{
   padding-right: var(--size-100);
-  max-width: 550px;
+  max-width: 35rem;
 }
 
 .block-text span {
@@ -198,6 +198,7 @@ span.bg-color-6{
 .video-demo .block-text h2,
  .video-demo .block-text p{
   color: var(--white);
+  margin: var(--size-50) 0;
 }
 
 .video-btn{
@@ -250,7 +251,7 @@ span.bg-color-6{
 .price-card{
   background-color: var(--white);
   border-radius: 8px;
-  padding: var(--size-16);
+  padding: var(--size-40) var(--size-16);
 }
 
 .price-card.featured{
