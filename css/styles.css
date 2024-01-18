@@ -110,7 +110,8 @@ color: var(--white);
 
 .why-me-wrapper .block-text{
   padding-right: var(--size-100);
-  max-width: 35rem;
+  max-width: 35rem; 
+  
 }
 
 .block-text span {
