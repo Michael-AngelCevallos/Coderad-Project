@@ -70,7 +70,6 @@
   background-image: url("../assets/images/bg-demo.jpg");
 background-size: 1800px;
 background-repeat: no-repeat;
-
 }
 
 .bg-header::before{
@@ -94,7 +93,7 @@ color: var(--white);
 
 
 /* Section 2 */
-.why-me{
+.why-me {
   padding: var(--size-100) 0;
 }
 
@@ -108,10 +107,9 @@ color: var(--white);
   flex: 1;
 }
 
-.why-me-wrapper .block-text{
+.why-me-wrapper .block-text {
   padding-right: var(--size-100);
   max-width: 35rem; 
-  
 }
 
 .block-text span {
@@ -130,7 +128,7 @@ color: var(--white);
 }
 
 /* Section 3 */
-.bg-contrast{
+.bg-contrast {
   background-color: rgb(248, 249, 249);
   padding: var(--size-60) 0;
   margin: 0 auto;
@@ -142,7 +140,7 @@ color: var(--white);
   gap: var(--size-20);
 }
 
-.service-card{
+.service-card {
   padding: var(--size-20);
   box-shadow: 0 0 10px rgba(48, 63, 100, 0.15);
   background-color: white;
@@ -150,7 +148,7 @@ color: var(--white);
 }
 
 
-.service-card span{
+.service-card span {
   width: var(--size-60);
   height: var(--size-60);
   display: block;
@@ -224,7 +222,6 @@ span.bg-color-6{
 .video-box > img {
   max-width: 600px;
   border-radius: 8px;
-
 }
 
 
@@ -275,7 +272,6 @@ margin-top: -1rem;
   color: var(--font-color-link);
   font-size: var(--size-30);
   font-weight: 600;
-  
 }
 
 .price-card h3,
