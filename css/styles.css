@@ -1,9 +1,7 @@
 
-
 body{
   margin: 0;
 }
-
 
 .navbar{
   display:flex;
@@ -41,7 +39,7 @@ body{
   font-weight: 700;
   width: 100%;
   transition: ease-in-out 0.3s;
-  color: var(--white);
+  color: cyan;
 }
 
 .navbar-toggle{
@@ -49,13 +47,14 @@ body{
 }
 
 .nav-link a{
-  color: var(--white);
-  font-size: 0.8125rem;
+  color: cyan;
+  font-size: var(--size-18);
   font-weight: 600;
   font-family: "Hind", sans-serif;
   text-transform: uppercase;
   margin-right: 2.5rem;
   line-height: 1.25rem;
+  
 }
 
 .bg-header, video-demo{
@@ -137,7 +136,7 @@ color: var(--white);
 /* Section 3 */
 .bg-contrast {
   background-color: rgb(248, 249, 249);
-  padding: var(--size-60) 0;
+  padding: var(--size-100) 0;
   margin: 0 auto;
 }
 
@@ -204,7 +203,8 @@ span.bg-color-6{
 .video-demo .block-text h2,
  .video-demo .block-text p{
   color: var(--white);
-  margin: var(--size-50) 0;
+  padding-top: var(--size-50);
+  margin-top: 0;
 }
 
 .video-btn{
