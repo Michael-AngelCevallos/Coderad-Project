@@ -408,6 +408,7 @@ footer .footer-col{
   color: var(--white);
   font-weight: 500;
   margin-bottom: var(--size-16);
+  font-size: var(--size-16);
 }
 
 footer .contact-info{
@@ -437,6 +438,10 @@ footer .contact-info{
 .service-wrapper p{
  color: #858497;
 }
+
+.service-wrapper h5{
+  margin-bottom: initial;
+ }
 
 .recent-posts{
   display: flex;
