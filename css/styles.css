@@ -1,3 +1,10 @@
+
+
+body{
+  margin: 0;
+}
+
+
 .navbar{
   display:flex;
   align-items: center;
@@ -461,6 +468,7 @@ footer .contact-info{
 .post-inner h6 a{
   color: var(--white);
   font-weight: 600;
+  font-size: 0.75rem;
 }
 
 .post-inner span{
