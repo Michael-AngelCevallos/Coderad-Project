@@ -136,7 +136,7 @@ color: var(--white);
 /* Section 3 */
 .bg-contrast {
   background-color: rgb(248, 249, 249);
-  padding: var(--size-100) 0;
+  padding: var(--size-150) 0;
   margin: 0 auto;
 }
 
@@ -194,6 +194,7 @@ span.bg-color-6{
 /* Section 4 - Video Demo */
 .video-demo{
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .video-demo .block-text{
