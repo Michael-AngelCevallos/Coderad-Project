@@ -1,0 +1,15 @@
+@media screen and (max-width: 768px){
+    [aria-controls="navbarDropdown"]{
+        display: block;
+    }
+
+    [aria-expandable="false"] ~ ul {
+        display: none;
+    }
+
+    [aria-expandable="true"] ~ ul {
+        display: block;
+    }
+}
+
+/* yes */
