@@ -24,6 +24,13 @@ body{
   border: 1px solid transparent;
 }
 
+.navbar-toggler span{
+  color: var(--white);
+  font-size: var(--size-20);
+  cursor: pointer;
+  pointer-events: none;
+}
+
 /* Hides Hamburger Menu when in full screen */
 [aria-controls="navbarDropdown"]{
   display: none;
