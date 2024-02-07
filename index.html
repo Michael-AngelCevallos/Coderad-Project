@@ -479,8 +479,10 @@
 
           function toggleNav({ target }) {
             const expanded = target.getAttribute['aria-expanded'] === 'true' || false;
-            navButton.addEventListener('click', toggleNav);
+            navButton.setAttribute('aria-expanded', !expanded);
           }
+
+          navButton.addEventListener('click', toggleNav);
         </script>
       
 
