@@ -28,7 +28,7 @@ body{
   color: var(--white);
   font-size: var(--size-20);
   cursor: pointer;
-  pointer-events: none;
+  /* pointer-events: none; */
 }
 
 /* Hides Hamburger Menu when in full screen */
