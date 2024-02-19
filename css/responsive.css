@@ -9,6 +9,14 @@
 
     [aria-expandable="true"] ~ ul {
         display: block;
+        position: absolute;
+        right: 0;
+        top: var(--size-50);
+        background-image: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.7));
+        width: 100%;
+        text-align: right;
+        box-shadow: 0px 0px 20px rgba(52, 75, 49, 0.1);
+
     }
 }
 
